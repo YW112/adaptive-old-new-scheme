@@ -4,7 +4,7 @@ body {
     grid-template-areas: "h1 h1 h1 h1"
     "content content sidebar sidebar"
     "footer footer footer footer";
-    grid-template-rows: repeat(3, minmax(240px, 2fr) );
+    grid-template-rows: repeat(3, minmax(100px, 2fr) );
     grid-template-columns: repeat(2, minmax(100px, 2fr));
     background-color: rgb(212, 210, 210);
 }
@@ -15,8 +15,8 @@ body {
     "content-3 content-3 content-3 content-3";
     width: 50vw;
     height: 30vh;
-    grid-template-rows: 3fr 2fr 3fr;
-    grid-template-columns: repeat(4, auto-fit, minmax(200px, 2fr));
+    grid-template-rows: repeat(3, minmax(100px, 2fr));
+    grid-template-columns: repeat(4, auto-fit, minmax(200px, 3fr));
     grid-row-start: 1;
     grid-row-end: 4;
     grid-column-start: 1;
@@ -31,20 +31,21 @@ header {
     text-align: center;
     grid-row: 1/2;
     grid-column: 2/4;
-    height: 70px;
+    height: 3vh;
 }
 
 h1 {
     text-align: center;
     background-color: rgb(212, 210, 210);
-    width: 120vw;
-    height: 3vh;
+    width: 90vw;
+    height: 0.5vh;
     grid-area: h1;
     grid-row-start: 1;
     grid-row-end: 2;
     grid-column-start: 1;
     grid-column-end: 3;
     font-size: 16px;
+    margin-top: 120px;
 }
 .sidebar {
     height: 30vh;
@@ -111,7 +112,7 @@ grid-row: 3/4;
     padding: 5px;
     margin: 5px;
     background-color: white;
-    width: 40vw;
+    width: 20vw;
     height: 10vh;
     text-align: center;
     grid-area: f1;
@@ -128,7 +129,7 @@ grid-row: 3/4;
     padding: 5px;
     margin: 5px;
     background-color: white;
-    width: 40vw;
+    width: 20vw;
     height: 10vh;
     text-align: center;
     grid-area: f2;
@@ -144,7 +145,7 @@ grid-row: 3/4;
     padding: 5px;
     margin: 5px;
     background-color: white;
-    width: 40vw;
+    width: 20vw;
     height: 10vh;
     text-align: center;
     grid-area: f3;
@@ -160,7 +161,7 @@ grid-row: 3/4;
     padding: 5px;
     margin: 5px;
     background-color: white;
-    width: 40vw;
+    width: 20vw;
     height: 10vh;
     text-align: center;
     grid-area: f4;
