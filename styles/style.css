@@ -1,6 +1,6 @@
-@media screen and (max-width:525px) {
+@media screen and (min-width:480px) {
     div[class="content"] {
-        display: none !important;
+        display: block;
     }
 }
 
