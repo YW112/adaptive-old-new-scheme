@@ -1,6 +1,41 @@
 @media screen and (min-width:480px) {
-    div[class="content"] {
-        display: block;
+    body {
+        display: inline;
+    }
+}
+@media screen and (max-width:800px){
+    h1 {
+        height: 35vh;
+    }
+    div .content {
+        height: 35vh;
+    }
+    div content-1 {
+        height: 15vh;
+    }
+    div content-2 {
+        height: 15vh;
+    }
+    div content-3 {
+        height: 15vh;
+    }
+    aside {
+        height: 35vh;
+    }
+    footer {
+        height: 25vh;
+    }
+    div .f1 {
+        height: 20vh;
+    }
+    div .f2 {
+        height: 20vh;
+    }
+    div .f3 {
+        height: 20vh;
+    }
+    div .f4 {
+        height: 20vh;
     }
 }
 
