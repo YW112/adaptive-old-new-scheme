@@ -1,5 +1,5 @@
 @media screen and (max-width:525px) {
-    img[class="hide"] {
+    div[class="content"] {
         display: none !important;
     }
 }
