@@ -186,7 +186,7 @@
     }
     
     h1, header, .content-1, .content-2, .content-3, .f1, .f2, .f3, .f4, .sidebar {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
 
     body {
@@ -257,7 +257,7 @@
         grid-column: 1/2;
         box-sizing: border-box;
         margin-left: 2px;
-        display: grid;
+        display: inline-grid;
     }
     
     .content-2 {
@@ -289,7 +289,7 @@
         grid-row-end: 4;
         grid-column-start: 1;
         grid-column-end: 2;
-        display: grid;
+        display: inline-grid;
     }
     
     .f2 {
@@ -298,7 +298,7 @@
         background-color: white;
         text-align: center;
         grid-area: f2;
-        display: grid;
+        display: inline-grid;
         grid-row-start: 3;
         grid-row-end: 4;
         grid-column-start: 3;
@@ -311,7 +311,7 @@
         background-color: white;
         text-align: center;
         grid-area: f3;
-        display: grid;
+        display: inline-grid;
         grid-row-start: 3;
         grid-row-end: 4;
         grid-column-start: 5;
@@ -324,7 +324,7 @@
         background-color: white;
         text-align: center;
         grid-area: f4;
-        display: grid;
+        display: inline-grid;
         grid-row-start: 3;
         grid-row-end: 4;
         grid-column-start: 7;
